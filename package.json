@@ -14,8 +14,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "compri": "webpack",
-    "webpack": "webpack",
+    "webpack": "webpack"
   },
   "eslintConfig": {
     "extends": "react-app"
