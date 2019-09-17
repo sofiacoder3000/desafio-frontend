@@ -1,0 +1,47 @@
+[
+  {
+    "id": 0,
+    "description": "Hey! Sal a caminar.",
+    "done": false
+  },
+  {
+    "id": 1,
+    "description": "Tienes que correr 15 vueltas! Right now!",
+    "done": true
+  },
+  {
+    "id": 2,
+    "description": "Hora de ver películas!! Yess.",
+    "done": false
+  },
+  {
+    "id": 3,
+    "description": "Pregúntale a tus amigos sobre el día que tuvieron hoy.",
+    "done": false
+  },
+  {
+    "id": 4,
+    "description": "Mira que estás estudiando: a que horas, qué cursos, cómo vas progresando.",
+    "done": false
+  },
+  {
+    "id": 5,
+    "description": "Tómate un café",
+    "done": true
+  },
+  {
+    "id": 6,
+    "description": "Lee un libro",
+    "done": true
+  },
+  {
+    "id": 7,
+    "description": "Hora de almorzar!",
+    "done": false
+  },
+  {
+    "id": 8,
+    "description": "Recoje a los niños de la escuela",
+    "done": false
+  }
+]
