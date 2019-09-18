@@ -75,7 +75,7 @@ export default class App extends Component {
     const tasksOn = this.state.tasks.filter(task => task.done === true);
     return (
       <div className="App">
-        <h1>Desafío Front-end (Solved)</h1>
+        <h1>Desafío Front-end (Solved*)</h1>
         <main>
           <div className="PorHacer">
             <div className="TasksTitle">

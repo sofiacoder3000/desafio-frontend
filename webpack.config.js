@@ -15,6 +15,11 @@ module.exports = {
     modules: [path.resolve(__dirname, "src"), "node_modules"]
   },
   devServer: { contentBase: path.join(__dirname, "src") },
+  watch: true,
+  watchOptions: {
+    ignored: ["public", "node_modules"],
+    poll: 1000 // Check for changes every second
+  },
   module: {
     rules: [
       {
