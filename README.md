@@ -4,13 +4,13 @@
 
 El proyecto se ejecuta en el puerto 3000 por defecto.
 
-1. Abrir la terminal o consola y ubicarse en la carpeta dsel proyecto.
+1. Abrir la terminal o consola y ubicarse en la carpeta del proyecto.
 2. Correr `npm start`
 
 ## Comprimir el proyecto con webpack
 
-Se creará una carpeta _dist_ con el proyecto comprimido.
-Las reglas están en _webpack.config.js_
+Se creará una carpeta **dist** con el proyecto comprimido.
+Las reglas están en **webpack.config.js**
 
 1. Abrir otra terminal o consola y ubicarse en la carpeta dsel proyecto.
 2. Correr `npm run webpack`
