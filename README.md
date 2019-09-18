@@ -9,14 +9,13 @@ Abrir una terminal o consola y ubicarse en el directorio donde quieran tener el 
 
 ## Correr el proyecto
 
-1. Abrir la terminal o consola y ubicarse en la carpeta del proyecto.
-2. Correr `npm start`
+1. En la misma terminal o consola correr: `npm start`
 
-El proyecto se ejecuta en el puerto 3000 por defecto.
+El proyecto se ejecutará en el puerto 3000 por defecto.
 
 ## Comprimir el proyecto con webpack
 
-1. Abrir otra terminal o consola y ubicarse en la carpeta dsel proyecto.
+1. Abrir otra terminal o consola y ubicarse en la carpeta del proyecto.
 2. Correr `npm run webpack`
 
 Se creará una carpeta **dist** con el proyecto comprimido.
