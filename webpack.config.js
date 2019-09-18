@@ -37,8 +37,21 @@ module.exports = {
         ]
       },
       {
-        test: /\.(jpg|jpeg|png|gif|mp3|svg)$/,
-        loaders: ["file-loader"]
+        test: /\.(png|jp(e*)g|svg|gif|mp3)$/,
+        use: [
+          {
+            loader: "url-loader",
+            options: {
+              limit: 8000, // Convert images < 8kb to base64 strings
+              name: "images/[hash]-[name].[ext]",
+              fallback: "file-loader"
+            }
+          }
+        ]
+      },
+      {
+        test: /\.txt$/,
+        use: "raw-loader"
       }
     ]
   },
